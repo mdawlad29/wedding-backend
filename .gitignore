@@ -1,0 +1,67 @@
+# .gitignore file created for free with Tower (https://www.git-tower.com/)
+# For suggestions or improvements please contact us using support@git-tower.com
+# Generated on 2025-05-08
+# Includes: renv, yarn
+
+### Universal ###
+# Common files that should be ignored in all projects
+
+# Logs
+*.log
+# Temporary files
+*.tmp
+*~
+
+*.bak
+# Environment files (containing secrets, API keys, credentials)
+.env
+*.env
+.env.*
+
+# Local configuration that shouldn't be shared
+*.local
+
+### Renv ###
+# renv package manager specific files
+
+renv/
+renv.lock
+.Rprofile
+renv/activate.R
+
+### Yarn ###
+# Yarn package manager files and cache
+
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+# Yarn
+yarn.lock
+.yarn/
+.yarnrc
+
+.yarn-integrity
+.yarn-metadata.json
+yarn-debug.log*
+yarn-error.log*
+.yarn-cache/
+
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+.yarnrc.yml
+.yarn-update-notifier
+yarn.build.json
+.yarnpath
+.yarn/build
+
+.yarn-metadata
+yarn-conditions.yml
+.yarn/install-state.gz.tmp
+!.yarn/releases
+!.yarn/patches
+
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions

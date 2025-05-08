@@ -1,0 +1,16 @@
+module.exports = {
+  FOUND: "found successfully",
+  CREATED: "created successfully",
+  DELETED: "deleted successfully",
+  UPDATED: "updated successfully",
+  FETCHED: "fetched successfully",
+  NOT_FOUND: "not found",
+  INVALID_CREDENTIALS: "invalid credentials",
+  SERVER_ERROR: "an unexpected error occurred",
+  UNAUTHORIZED: "unauthorized",
+  BAD_REQUEST: "bad request",
+  SUCCESS: "success",
+  FORBIDDEN: "forbidden",
+  NOT_ACCEPTABLE: "not acceptable",
+  CONFLICT: "Already exists!! Try another one",
+};
